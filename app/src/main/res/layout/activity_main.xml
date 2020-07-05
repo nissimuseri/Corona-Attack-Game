@@ -119,8 +119,8 @@
 
         <ImageView
             android:id="@+id/doctorImage"
-            android:layout_width="50dp"
-            android:layout_height="45dp"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
             android:layout_gravity="center_vertical"/>
 
         <ImageView
