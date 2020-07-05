@@ -2,11 +2,13 @@
 
 ## Android Game for the coronavirus days.
 
+![play](https://user-images.githubusercontent.com/55482825/86542629-00b5e200-bf20-11ea-8883-12cacf18f84d.jpeg)
+
 The new reality of life with **COVID-19** is very comlex.
 This virus damages countries in the whole world.
 
 We decided to make a game that would make these days fun for us,
-at least as much as possible.
+at least as much as possible.:+1:
 
 This game is for ***Android OS***, it support in versions 4.4(KitKat) and above.
 Programmed in ***Java***.
