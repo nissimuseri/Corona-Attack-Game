@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TableRow
+        android:id="@+id/tableBackGround"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:background="@color/greywhite"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/scoreLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="15dp"
+            android:gravity="center_vertical"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="@string/game_score"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/totalScoreLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_marginEnd="20dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="@string/total_game_score"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/levelLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="30dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:text="@string/level"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+        <ImageView
+            android:id="@+id/heart"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/heart"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="top"/>
+        <ImageView
+            android:id="@+id/heart2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="top"
+            android:src="@drawable/heart" />
+
+        <ImageView
+            android:id="@+id/heart3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="top"
+            android:src="@drawable/heart" />
+
+        <ImageView
+            android:id="@+id/music_btn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="top"
+            android:layout_marginStart="50dp"
+            android:src="@drawable/music3" />
+        <ImageView
+            android:id="@+id/pause_btn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="top"
+            android:layout_marginStart="50dp"
+            android:src="@drawable/ic_baseline_pause_circle_outline_24"/>
+    </TableRow>
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/countryImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:id="@+id/country_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="55dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/startLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="140dp"
+            android:text="@string/tap_to_start"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/doctorImage"
+            android:layout_width="50dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_vertical"/>
+
+        <ImageView
+            android:id="@+id/alcoGel"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/object_a_alco_gel"/>
+
+        <ImageView
+            android:id="@+id/red"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/redcorona"/>
+
+        <ImageView
+            android:id="@+id/blue"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/bluecorona"/>
+
+        <ImageView
+            android:id="@+id/green"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/greencorona"/>
+
+        <ImageView
+            android:id="@+id/mask"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/object_b_mask" />
+
+        <ImageView
+            android:id="@+id/objectHeal"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/healkit"/>
+
+    </FrameLayout>
+
+</LinearLayout>

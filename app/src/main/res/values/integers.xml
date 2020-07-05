@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="speed_box_up">-20</integer>
+    <integer name="speed_box_down">2</integer>
+    <integer name="speed_orange">12</integer>
+    <integer name="speed_pink">20</integer>
+    <integer name="speed_black">16</integer>
+</resources>

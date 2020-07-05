@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.virusattack">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/appicon"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.example.virusattack.SplashActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.virusattack.StartActivity"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.virusattack.RecordsActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.example.virusattack.ResultActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.example.virusattack.LevelActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.example.virusattack.MainActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.example.virusattack.TutorialActivity"
+            android:screenOrientation="landscape" />
+    </application>
+
+</manifest>
